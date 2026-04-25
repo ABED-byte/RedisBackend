@@ -1,0 +1,14 @@
+package com.grid07.socialMedia.dto;
+
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Getter
+@Setter
+@NoArgsConstructor
+public class CreatePostRequest {
+    private Long authorId;
+    private String authorType;
+    private String content;
+}
